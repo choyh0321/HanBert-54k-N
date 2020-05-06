@@ -215,9 +215,10 @@ cp usr_local_moran/* /usr/local/moran
 #### Moran (한국어 문장을 Deep NLP용 한국어 표현으로 변환) 예제
 
 * moran.db, libmoran4dnlp.so의 기본 위치는 /usr/local/moran 입니다.
-* moran.py의 소스코드에서 해당 DB와 so의 위치를 수정하실 수 있습니다.
-* udict.txt는 사용자 기분서-사전입니다. 띄어쓰기 단위인 어절에 대한 분석 결과를 등록할 수 있습니다.
-* uentity.txt는 사용자 명칭어 사전입니다. 현재버젼에서는 제공되지 않는 기능이므로, 그대로 두시면 됩니다.
+* moran.py의 소스코드에서 해당 so의 위치를 수정하실 수 있습니다. 
+* moran.db는 moran에서 사용하는 사전과 문법이 합쳐진 것입니다. 항상 /usr/local/moran에 있어야 합니다.
+* udict.txt는 사용자 기분서-사전입니다. 띄어쓰기 단위인 어절에 대한 분석 결과를 등록할 수 있습니다. 항상 /usr/local/moran에 있어야 합니다.
+* uentity.txt는 사용자 명칭어 사전입니다. 현재버젼에서는 제공되지 않는 기능이므로, 그대로 두시면 됩니다. 항상 /usr/local/moran에 있어야 합니다.
 
 ```
 python
