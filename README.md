@@ -5,7 +5,7 @@
 ### 한국어 BERT (HanBert-54kN) Model & Code Download
 
   * HanBERT 54kN 300만 Steps 모델의 공개를 중단합니다. (2020년 10월 25일)
-  * 이전에 다운로드하여 연구와 교육에 활용하시던 비상업적 목적의 이용은 그대로 사용하시면 되겠습니다.
+  * 이전에 다운로드하여 연구와 교육에 활용하시던 비상업적 목적의 이용은 그대로 사용하셔도 되겠습니다.
   * 비상업적 목적의 활용에 대해서는 회사와 협의하여 주시기 바랍니다. info@tbai.info
   * 기업에서의 사용은 비상업적 목적으로 볼 수 없기 때문에, 라이센스 구입 문의를 해주시면 감사하겠습니다.
   * 참고 페이지 : https://twoblockai.com/resource-2/
@@ -228,14 +228,14 @@ cp usr_local_moran/* /usr/local/moran
 python
 >>> import moran
 >>> moran_tokenizer = moran.MoranTokenizer()
->>> x = '한국어 BERT를 공개합니다.'
+>>> x = '한국어 BERT를 소개합니다.'
 >>> moran_line = moran.text2moran(x, moran_tokenizer)
 >>> print(moran_line)
-['한국어', 'bert', '~~를', '공개', '~~합', '~~니다', '.']
->>> x = '<table> <tr> <td> 한국어 BERT를 공개합니다. </td> </tr> </table>'
+['한국어', 'bert', '~~를', '소개', '~~합', '~~니다', '.']
+>>> x = '<table> <tr> <td> 한국어 BERT를 소개합니다. </td> </tr> </table>'
 >>> moran_line = moran.text2moran(x, moran_tokenizer)
 >>> print(moran_line)
-['<table>', '<tr>', '<td>', '한국어', 'bert', '~~를', '공개', '~~합', '~~니다', '.', '</td>', '</tr>', '</table>']
+['<table>', '<tr>', '<td>', '한국어', 'bert', '~~를', '개', '~~합', '~~니다', '.', '</td>', '</tr>', '</table>']
 
 ```
 
@@ -265,7 +265,7 @@ python
 
 * 자체적인 코퍼스를 moran을 통해서 분석한 후에, 학습용 레코드를 만들어서 추가학습이 가능합니다.
 * 다양한 도메인의 코퍼스로 학습하여 보세요.
-* 특허 분야의 코퍼스로 추가학습한 모델을 공개하여 드립니다.
+* 특허 분야의 코퍼스로 추가학습한 모델을 소개합니다.
   - HanBert-54kN-IP
 
 
