@@ -4,7 +4,11 @@
 
 ### 한국어 BERT (HanBert-54kN) Model & Code Download
 
-  * https://twoblockai.com/2020/01/22/hanbert%eb%a5%bc-%ea%b3%b5%ea%b0%9c%ed%95%a9%eb%8b%88%eb%8b%a4/
+  * HanBERT 54kN 300만 Steps 모델의 공개를 중단합니다. (2020년 10월 25일)
+  * 이전에 다운로드하여 연구와 교육에 활용하시던 비상업적 목적의 이용은 그대로 사용하시면 되겠습니다.
+  * 비상업적 목적의 활용에 대해서는 회사와 협의하여 주시기 바랍니다. info@tbai.info
+  * 기업에서의 사용은 비상업적 목적으로 볼 수 없기 때문에, 라이센스 구입 문의를 해주시면 감사하겠습니다.
+  * 참고 페이지 : https://twoblockai.com/resource-2/
 
 ---
 
@@ -271,20 +275,10 @@ python
 
 ### Contacts
 
-info@tbai.info, 주식회사 투블럭에이아이, https://twoblockai.com/
+* info@tbai.info, 주식회사 투블럭에이아이, https://twoblockai.com/
+* HanBert와 Moran의 기술 및 Resouce 도입과 튜닝, 현업 적용 등의 상업적 이용을 위한 문의를 환영합니다.
+* HanBERT_MRC, HanBERT_NER의 라이센스에 대한 문의를 환영합니다.
+* 자체 보유중인 코퍼스와 투블럭Ai가 보유한 정제된 코퍼스를 통합하여 자체적인 BERT를 개발하기 위한 문의를 환영합니다.
 
-
-### License
-
-* KorQuAD 1.0 학습과 추론 코드는 원저자의 정책과 동일하게 Apache-2.0 라이선스 하에 공개되어 있습니다.
-
-* HanBert 모델과 Moran은 비상업적 목적으로 한정합니다. 상업적인 목적을 위해서는 위의 Contacts와 협의해 주세요.
-* HanBert 모델에 추가 학습한 경우에도 비상업적 목적으로 한정합니다. 상업적인 목적을 위해서는 위의 Contacts와 협의해 주세요.
-* 교육의 목적은 상업적인 목적으로 보지 않습니다. 교육을 위해서라면 자유롭게 사용하셔도 좋습니다.
-
-* HanBert와 Moran의 기술 및 Resouce 도입과 튜닝, 현업 적용 등의 상업적 이용을 위한 문의를 환영합니다. ^^
-
-### 다운로드 안내 페이지
-
-* https://twoblockai.com/2020/01/22/hanbert%eb%a5%bc-%ea%b3%b5%ea%b0%9c%ed%95%a9%eb%8b%88%eb%8b%a4/
-
+### HanBERT의 상업적 활용 안내 페이지
+ * https://twoblockai.com/resource-2/
