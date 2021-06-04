@@ -4,11 +4,11 @@
 
 ### 한국어 BERT (HanBert-54kN) Model & Code Download
 
-  * HanBERT 54kN 300만 Steps 모델의 공개를 중단합니다. (2020년 10월 25일)
-  * 이전에 다운로드하여 연구와 교육에 활용하시던 비상업적 목적의 이용은 그대로 사용하셔도 되겠습니다.
-  * 비상업적 목적의 활용에 대해서는 회사와 협의하여 주시기 바랍니다. info@tbai.info
+  * HanBERT 54kN 500만 Steps 모델을 공개합니다. 
+  * 연구와 교육, 그리고 경진대회 참가 등에 활용하셔도 되겠습니다.
+  * 비상업적 목적의 활용에 대해서는 회사와 협의하여 주시기 바랍니다. info@twoblockai.com
   * 기업에서의 사용은 비상업적 목적으로 볼 수 없기 때문에, 라이센스 구입 문의를 해주시면 감사하겠습니다.
-  * 참고 페이지 : https://twoblockai.com/resource-2/
+  * 참고 페이지 : https://twoblockai.com/2020/01/22/hanbert%EB%A5%BC-%EA%B3%B5%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/
 
 ---
 
@@ -17,18 +17,10 @@
  * HanBert-54kN  : HanBert 기본 모델 (300만 Step 학습)
    * bert_config.json
    * checkpoint    
-   - model.ckpt-3000000.data-00000-of-00001  
-   - model.ckpt-3000000.meta   
-   - model.ckpt-3000000.index               
-   - vocab_54k.txt
-
- * HanBert-54kN-IP  : 특허문서를 추가하여 만들어진 기본 모델 (기본 500만 + 특허 100만)
-   - bert_config.json
-   - checkpoint    
-   - model.ckpt-6000000.data-00000-of-00001  
-   - model.ckpt-6000000.meta   
-   - model.ckpt-6000000.index               
-   - vocab_54k.txt
+   - model.ckpt-5000000.data-00000-of-00001  
+   - model.ckpt-5000000.meta   
+   - model.ckpt-5000000.index               
+   - vocab.txt
   
  * HanBert-54kN-MRC  : 기계독해 학습 데이터로 Fine-tuning된 모델 (mrc_test.py에서 사용) 
    - bert_config.json
@@ -261,21 +253,16 @@ python
 
    ```
 
-### HanBert-54kN의 추가 학습
-
-* 자체적인 코퍼스를 moran을 통해서 분석한 후에, 학습용 레코드를 만들어서 추가학습이 가능합니다.
-* 다양한 도메인의 코퍼스로 학습하여 보세요.
-* 특허 분야의 코퍼스로 추가학습한 모델을 소개합니다.
-  - HanBert-54kN-IP
-
 
 ### Version History
 
 * v.0.1 : 초기 모델 릴리즈
+* v.1.0 : 500만 Step 모델 릴리즈
+* 
 
 ### Contacts
 
-* info@tbai.info, 주식회사 투블럭에이아이, https://twoblockai.com/
+* info@twoblockai.com, 주식회사 투블럭에이아이, https://twoblockai.com/
 * HanBert와 Moran의 기술 및 Resouce 도입과 튜닝, 현업 적용 등의 상업적 이용을 위한 문의를 환영합니다.
 * HanBERT_MRC, HanBERT_NER의 라이센스에 대한 문의를 환영합니다.
 * 자체 보유중인 코퍼스와 투블럭Ai가 보유한 정제된 코퍼스를 통합하여 자체적인 BERT를 개발하기 위한 문의를 환영합니다.
